@@ -7,8 +7,9 @@
 }
 
 :where(code, kbd, samp, pre) {
-  font-family: monospace, monospace;
-  font-size: 1em;
+  font: 1em, monospace;
+  // font-family: monospace, monospace;
+  // font-size: 1em;
 }
 
 :where(sub, sup) {
